@@ -2,9 +2,13 @@ const restart_1_4 = document.querySelector(".restart_1_4");
 const fun_video_iframe = document.querySelector(".fun_video_iframe");
 
 const fun_video_src_list = [
-  "https://www.youtube.com/embed/_fd_hwSm9zI",
-  "https://www.youtube.com/embed/AC0alNuhHMM",
+  "https://www.youtube.com/embed/MjuJyti1Uwo",
+  "https://www.youtube.com/embed/5yZAUy8cgqs",
   "https://www.youtube.com/embed/EOCZYxmi7ho",
+  "https://www.youtube.com/embed/qGdfOXiPTgQ",
+  "https://www.youtube.com/embed/wzy7DxML_bc",
+  "https://www.youtube.com/embed/aip80BfeuDg",
+  "https://www.youtube.com/embed/I8yhahv4eLg",
 ];
 
 let pre_number = 0;
@@ -15,7 +19,7 @@ function restart_youtube_1_4() {
 }
 
 function change_random_number() {
-  const random_number = Math.floor(Math.random() * 3);
+  const random_number = Math.floor(Math.random() * 7);
   if (random_number == pre_number) {
     change_random_number();
   } else {
