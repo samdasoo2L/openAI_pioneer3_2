@@ -9,6 +9,9 @@ const fun_video_src_list = [
   "https://www.youtube.com/embed/wzy7DxML_bc",
   "https://www.youtube.com/embed/aip80BfeuDg",
   "https://www.youtube.com/embed/I8yhahv4eLg",
+  "https://www.youtube.com/embed/xq7L-85X5H8",
+  "https://www.youtube.com/embed/uShSDKIpyTE",
+  "https://www.youtube.com/embed/eQV8mkyzsT4",
 ];
 
 let pre_number = 0;
@@ -19,7 +22,7 @@ function restart_youtube_1_4() {
 }
 
 function change_random_number() {
-  const random_number = Math.floor(Math.random() * 7);
+  const random_number = Math.floor(Math.random() * 10);
   if (random_number == pre_number) {
     change_random_number();
   } else {
